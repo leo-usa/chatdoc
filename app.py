@@ -9,7 +9,7 @@ hide_default_format = """
        """
 st.markdown(hide_default_format, unsafe_allow_html=True)
 
-#st.set_page_config(page_title="ChatDoc")
+st.set_page_config(page_title="ChatDoc", page_icon=":smiley:", layout="wide")
 st.header("ChatDoc - The AI Bot Answering Your Questions based on a Document")
 uploaded_file = st.file_uploader("Upload a PDF file, then you can ask questions, our ChatGPT will answer questions based on the document", type=["pdf"])
 
